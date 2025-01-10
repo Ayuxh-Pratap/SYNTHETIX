@@ -18,14 +18,6 @@ type NavbarProps = {
 const Navbar = ({ settings }: NavbarProps) => {
   const [openNav, setOpenNav] = useState(false);
 
-  useEffect(() => {
-    if (openNav) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [openNav]);
-
   return (
     <motion.nav
       initial={{ opacity: 0 }}
