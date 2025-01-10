@@ -21,7 +21,7 @@ Synthetix is a website built for AI startups to showcase their services and mark
 Clone the project
 
 ```bash
-  git clone https://github.com/victorcodess/synthetix
+  git clone https://github.com/Ayuxh-Pratap/synthetix
 ```
 
 Go to the project directory
